@@ -11,32 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-section {
-  display: flex;
-  padding: 5px;
+.Main {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
-ul {
-  list-style: none;
+.bg {
+  box-shadow: 0px 17px 100px 8px rgb(0, 0, 0, 1);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
 }
-li {
-  background-color: grey;
-
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
+.form-div {
+  margin-bottom: 8px;
 }
-input {
+.form-div label {
   display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+.form-div input {
+  font-size: 20px;
+  width: 90%;
+  border-radius: 8px;
+  border: 2px solid grey;
+  padding: 8px 10px;
+}
+.btn {
+  width: 100px;
+  /* height: 30px; */
+  font-size: 16px;
   margin-top: 10px;
-  width: 300px;
-  height: 30px;
-  padding: 10px;
+  cursor: pointer;
+  padding: 10px 10px;
+  background-color: rgb(81, 81, 188);
+  color: white;
   border-radius: 10px;
 }
-button {
-  margin-top: 10px;
-
+.card-mt {
+  margin-top: 30px;
+}
+.list {
+  font-size: 30px;
   padding: 10px;
-
-  text-align: center;
 }
