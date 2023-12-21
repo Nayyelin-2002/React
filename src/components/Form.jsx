@@ -1,3 +1,62 @@
+// import React, { useState } from "react";
+// import Card from "./Card";
+
+// function Form(props) {
+//   let [name, setName] = useState("");
+//   let [age, setAge] = useState("");
+//   let [email, setEmail] = useState("");
+
+//   let username = function (event) {
+//     setName(event.target.value);
+//   };
+//   let userage = function (event) {
+//     setAge(event.target.value);
+//   };
+//   let useremail = function (event) {
+//     setEmail(event.target.value);
+//   };
+
+//   let adduser = function (event) {
+//     event.preventDefault();
+//     if (
+//       name.trim().length === 0 ||
+//       age.trim().length === 0 ||
+//       email.trim().length === 0
+//     ) {
+//       alert("fill infomations");
+//       return;
+//     }
+//     let infos = [name, age, email];
+//     props.giveinfo(infos);
+//     console.log(infos);
+//     setName("");
+//     setEmail("");
+//     setAge("");
+//   };
+//   return (
+//     <Card>
+//       <form onSubmit={adduser}>
+//         <div className="form-div">
+//           <label htmlFor="name">Name</label>
+//           <input type="text" id="name" value={name} onChange={username} />
+//         </div>
+//         <div className="form-div">
+//           <label htmlFor="age">Age</label>
+//           <input type="number" id="age" value={age} onChange={userage} />
+//         </div>
+//         <div className="form-div">
+//           <label htmlFor="email">email</label>
+//           <input type="text" id="email" value={email} onChange={useremail} />
+//         </div>
+//         <button className="btn" type="submit">
+//           Add user
+//         </button>
+//       </form>
+//     </Card>
+//   );
+// }
+
+// export default Form;
 import { useState, useRef } from "react";
 import Card from "./Card";
 

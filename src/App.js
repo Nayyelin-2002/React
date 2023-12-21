@@ -1,9 +1,8 @@
-import React from "react";
-import One from "./components/Main";
 import Main from "./components/Main";
 function App() {
+  // let leepl = "pin pen tl0";
   return (
-    <div className="App">
+    <div>
       <h1>Hello wrold!!</h1>
       <Main />
     </div>

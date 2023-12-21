@@ -11,47 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.Main {
+.bg-color {
+  background-color: aquamarine;
+}
+.main {
   width: 60%;
   margin: 0 auto;
-  padding: 20px 0;
-}
-.bg {
-  box-shadow: 0px 17px 100px 8px rgb(0, 0, 0, 1);
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 60px 0;
 }
 .form-div {
   margin-bottom: 8px;
 }
-.form-div label {
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
+.bg {
+  box-shadow: 12px 12px 2px 1px rgba(23, 23, 25, 0.2);
+  background-color: rgb(248, 243, 243);
+  padding: 20px;
+  width: 100%;
 }
 .form-div input {
-  font-size: 20px;
-  width: 90%;
-  border-radius: 8px;
+  display: block;
   border: 2px solid grey;
-  padding: 8px 10px;
+  border-radius: 10px;
+  padding: 6px;
+  margin-top: 10px;
+  width: 100%;
+}
+.form-div label {
+  font-size: 17px;
+  font-weight: 500px bolder;
+  color: red;
 }
 .btn {
-  width: 100px;
-  /* height: 30px; */
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
-  padding: 10px 10px;
-  background-color: rgb(81, 81, 188);
+  padding: 10px;
+  background-color: rgb(0, 38, 255);
   color: white;
   border-radius: 10px;
+  cursor: pointer;
 }
 .card-mt {
-  margin-top: 30px;
-}
-.list {
-  font-size: 30px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 60px;
+  width: 60%;
 }

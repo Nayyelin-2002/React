@@ -1,3 +1,27 @@
+// import React from "react";
+// import Card from "./Card";
+
+// function List(props) {
+//   return (
+//     <>
+//       {props.user.map((information) => {
+//         console.log(information.name);
+//         return (
+//           <Card>
+//             <div>
+//               <h1>Name: {information.name}</h1>
+//               <p>Age: {information.age}</p>
+//               <p>Email: {information.email}</p>
+//             </div>
+//           </Card>
+//         );
+//       })}
+//     </>
+//   );
+// }
+
+// export default List;
+
 import Card from "./Card";
 
 function List(props) {
