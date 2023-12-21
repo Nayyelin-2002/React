@@ -53,3 +53,11 @@ code {
   padding: 60px;
   width: 60%;
 }
+.username button {
+  padding: 10px;
+  font-size: 20px;
+  margin: 0px 20px;
+}
+.username span {
+  font-size: 20px;
+}
